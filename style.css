@@ -1,5 +1,6 @@
 body {
     background-image: url("02.jpg");
+    background-repeat: no-repeat;
     color: black;
     text-align: center;
   }
