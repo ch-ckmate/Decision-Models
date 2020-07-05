@@ -1,4 +1,5 @@
 body {
+    background-image: url("02.jpg");
     color: black;
     text-align: center;
   }
@@ -17,7 +18,8 @@ body {
   }
   
   h1 {
-    font-size: 3em;
+    font-weight: bolder;
+    font-size: 5em;
   }
   
   .menu {
@@ -30,7 +32,7 @@ body {
     border-radius: 100%;
     width: 80px;
     height: 80px;
-    margin-left: -230px;
+    margin-left: -295px;
     position: absolute;
     top: 200px;
     color: white;
