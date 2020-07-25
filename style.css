@@ -32,7 +32,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #028079;
+    background-color: #1c61f5;
     -webkit-perspective: 90rem;
             perspective: 90rem;
     -webkit-perspective-origin: 34% 61%;
@@ -40,15 +40,17 @@ body {
             
 }
 h1 {
-    margin: 0;
-    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 5px;
+    margin-left: 50px;
     margin-top: 10px;
     font-weight: bolder;
     font-size: 5em;
     color: #fff;
 
-
 }
+
 img {
     width: 160px;
 }
@@ -131,10 +133,7 @@ button::before {
     width: 80vw;
     height: 100vh;
     margin-left: 6vw;
-    /* transform:rotateX(7deg) rotateZ(-4deg) rotateY(13deg) scale3d(1, 1, -0.9); */
-    -webkit-transform: rotateX(23deg) rotateZ(-9deg) rotateY(15deg) scale3d(1, 1, -0.9);
-            transform: rotateX(23deg) rotateZ(-9deg) rotateY(15deg) scale3d(1, 1, -0.9);
-}
+ }
 
 .box {
     display: -webkit-box;
@@ -273,12 +272,13 @@ button::before {
 }
 
 .box-1 button div::before {
+    text-align: center;
     content: 'DecisionTree';
     position: relative;
     top: -44px;
     left: -4px;
     color: #00BF9C;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
 }
 
@@ -287,12 +287,13 @@ button::before {
 }
 
 .box-2 button div::before {
+    text-align: center;
     content: 'LinearP';
     position: relative;
     top: -44px;
     left: -6px;
     color: rgb(154, 123, 255);
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
 }
 
@@ -301,12 +302,13 @@ button::before {
 }
 
 .box-3 button div::before {
+    text-align: center;
     content: 'IntegerLP';
     position: relative;
     top: -44px;
     left: 3px;
     color: #008BFF;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
 }
 
@@ -315,12 +317,13 @@ button::before {
 }
 
 .box-4 button div::before {
+    text-align: center;
     content: 'NonLP';
     position: relative;
     top: -44px;
     left: -9px;
     color: #FF6500;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
 }
 
